@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    scroll-behavior: smooth;
+    transition: 0.5s all;
+    height: 100vh;
+}
+h1,h2,h3,h4{
+    font-weight: 500;
+}
+h2{
+    font-weight: 500;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    
+}
+.btn{
+    font-size: 1.2rem;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color:rebeccapurple;
+    color:#fff;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rebeccapurple;
+    color:#000;
+}
+
+ /* navbar css */
+header{
+    background-color:rebeccapurple ;
+}
+nav{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    z-index: 100;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+ul{
+    display: flex;
+}
+.items{
+    padding: 10px;
+    list-style: none;  
+}
+.item, .links{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+ /* home css  */
+
+#home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+    align-items: center;
+}
+.content{
+    flex: 1 1 40%;
+}
+.content > h1{
+    font-weight: 600;
+    font-size: 2rem;
+    color:rebeccapurple;
+}
+.content > p{
+    padding-bottom: 25px;
+    font-size: 1.6rem;
+    color:rebeccapurple;
+}
+img{
+    width: 610px;
+    flex: 1 1 40%;
+}
+
+/* about us  */
+
+ #about{
+    background-color: rebeccapurple;
+    padding: 30px 30px;
+ }
+ #about > h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    padding-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+ }
+#about > p{
+    font-size: 1.1rem;
+    color: #fff;
+    text-align: justify;
+    padding-bottom: 25px;
+}
+
+/* services css
+ */
+ #services{
+     padding-top: 25px;
+     padding-bottom:50px ;
+ }
+#services > h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    padding-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rebeccapurple; 
+}
+.card-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;  
+ }
+.card-container , .card3{
+    flex-basis: 30%;
+
+}
+.card3 > .image{
+    align-items: center;
+    text-align: center;
+}
+.card3 > .text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color:teal;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+.card3 >.image > img{
+    width: 50%;
+    height: 170px;
+    background-size: cover;
+}
+
+/* footer css */
+#details{
+    width: 100%;
+    background-color: rgb(26, 35, 46);
+    color: rgb(168, 175, 180);
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 25px;
+}
+#details >.heading{
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    padding-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(168, 175, 180); 
+}
+.heading > img{
+    width: 30px;
+    height:30px;
+    float: center;
+}
+#details > .copy{
+    font-weight: bold
+}
+.star-images{
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+.star-images > img{
+    width: 20px;
+    height: 20px;
+}
+q{
+    font-weight: bold;
+}
+.social-media{
+    margin: 10px;
+}
+.social-media > img{
+    width: 28px;
+    height: 28px;
+    margin: 10px 10px;
+    border-radius:50% ;
+}
+
+/* home css */
+header{
+ background-color: rebeccapurple;
+ line-height: 2;
+}
+header > .company-title{
+    text-align: center;
+    color: #fff;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.user-details > ul{
+    display: flex;
+}
+ul > li {
+    list-style: none;   
+}
+li> a{
+    text-decoration: none;
+}
